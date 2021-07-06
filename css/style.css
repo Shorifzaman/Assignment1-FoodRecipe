@@ -187,21 +187,35 @@ section {
     border-radius: 70px;
     background-position: center;
     background-size: cover;
+    display: flex;
 }
 
 .work-inquery-left {
-    width: 40%;
+    width: 20%;
     float: left;
     margin: 9% 7%;
 }
 
 .work-inquery-right {
     margin: 9% 6%;
-    width: 30%;
+    width: 20%;
     float: right;
     text-align: right;
 }
-
+.md{
+    width: 15%;
+    display: block;
+    margin-top: 50px;
+}
+.md h3{
+    text-align: center;
+    color: white;
+    display: flex;
+    font-size: 12px;
+}
+.md img{
+    width: 40%;
+}
 .work-content {
     padding: 15px 10px;
 }
@@ -212,8 +226,8 @@ section {
 .work-inquery-left h1{
     float: left;
     margin-left: 0;
-    font-size: 25PX;
-    font-weight: 700;
+    font-size: 20PX;
+    font-weight: 600;
 }
 .work-inquery-right a{
     float: right;
